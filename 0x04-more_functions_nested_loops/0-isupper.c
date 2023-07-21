@@ -6,6 +6,7 @@
  * Return: Always 0.
  */
 int main(void)
+{
 	if (c >= 'A' && c <= 'Z')
 {
 
@@ -14,4 +15,5 @@ int main(void)
 	else
 {
 	return (0);
+}
 }
