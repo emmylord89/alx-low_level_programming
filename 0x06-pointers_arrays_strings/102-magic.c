@@ -1,9 +1,15 @@
-#include <stdio.h>
+#include "main.h"
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 
 int main(void)
 {
-int no;
-int a[5];
+	int no;
+	int a[5];
 	int *p;
 
 	a[2] = 1024;
