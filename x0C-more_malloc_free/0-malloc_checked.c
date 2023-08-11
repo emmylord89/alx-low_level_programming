@@ -8,10 +8,10 @@
 */
 void *malloc_checked(unsigned int b)
 {
-void *dom;
-dom = malloc(b);
-if (dom == NULL)
+void *keys;
+keys = malloc(b);
+if (keys == NULL)
 exit(98);
-return (dom);
+return (keys);
 }
 
